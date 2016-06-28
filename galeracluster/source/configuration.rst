@@ -25,7 +25,7 @@ Using your preferred text editor, edit the ``/etc/my.cnf`` file.
    wsrep_cluster_address="gcomm://IP.node1,IP.node2,IP.node3"
    wsrep_sst_method=rsync
 
-   [mysql_safe]
+   [mysqld_safe]
    log-error=/var/log/mysqld.log
    pid-file=/var/run/mysqld/mysqld.pid
 
